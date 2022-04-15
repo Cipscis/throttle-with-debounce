@@ -13,7 +13,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": "../",
 		"paths": {
-			"@cipscis/base-package": ["./src/main-export.js"]
+			"@cipscis/throttle-with-debounce": ["./src/throttle-with-debounce.js"]
 		},
 	}
 }

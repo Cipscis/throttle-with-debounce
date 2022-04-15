@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log(!0)})();
+(()=>{"use strict";const t=function(t,e){let l=null,n=null;return function(...c){l?(n&&clearTimeout(n),n=setTimeout((()=>{t.apply(this,c),n=null}),e)):(t.apply(this,c),l=setTimeout((()=>{l=null}),e))}},e=function(t){t.preventDefault();let e=t.target;const l=e.getAttribute("data-activate-count");let n=l?parseInt(l,10):0;n+=1,e.setAttribute("data-activate-count",n.toString())},l=t(e,200),n=t(e,1e3);document.querySelectorAll(".js-throttle-with-debounce-fast").forEach((t=>t.addEventListener("click",l))),document.querySelectorAll(".js-throttle-with-debounce-slow").forEach((t=>t.addEventListener("click",n)))})();
 //# sourceMappingURL=docs-script.bundle.js.map
